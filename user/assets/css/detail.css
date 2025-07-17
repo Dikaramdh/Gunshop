@@ -1,0 +1,169 @@
+/* Define Color Variables */
+:root {
+    --dark-red: #800000;
+    --light-red: #ff4d4d;
+    --hover-red: #ff6666;
+    --dark-bg: #2a2a2a;
+    --light-text: #f0f0f0;
+    --gray-bg: #333;
+    --gray-hover: #555;
+    --green: #2d6a4f;
+    --green-hover: #3a8e62;
+    --info-bg: #600000;
+    --info-text: #fff;
+}
+
+/* General Body Styles */
+body {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--dark-red);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--light-text) !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background: linear-gradient(135deg, #2c2c2c, #6b0f1a);
+    color: var(--info-text);
+    border-bottom: 4px solid #f8f9fa;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Product Details Section */
+.container h2 {
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.1rem;
+}
+
+/* Button Styles */
+.btn-secondary {
+    background-color: var(--info-bg);
+    border-color: var(--info-bg);
+}
+
+.btn-secondary:hover {
+    background-color: var(--dark-red);
+    border-color: var(--dark-red);
+}
+
+.btn-danger {
+    background-color: var(--light-red);
+    border-color: var(--light-red);
+}
+
+.btn-danger:hover {
+    background-color: var(--hover-red);
+    border-color: var(--hover-red);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--dark-red);
+    color: var(--light-text);
+    padding: 20px 0;
+}
+
+footer a {
+    color: var(--light-text);
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: var(--gray-bg);
+    color: var(--light-text);
+    border-radius: 8px;
+    border: none;
+}
+
+.modal-header {
+    background-color: var(--info-bg);
+    color: var(--info-text);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.modal-header .close {
+    color: var(--info-text);
+}
+
+.modal-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.modal-body .form-control {
+    background-color: #444;
+    color: var(--light-text);
+    border: 1px solid var(--info-bg);
+    padding: 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.modal-body .form-control:focus {
+    background-color: var(--gray-hover);
+    border-color: var(--dark-red);
+    box-shadow: 0 0 10px var(--dark-red);
+}
+
+.modal-footer {
+    background-color: var(--info-bg);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.modal-footer .btn-secondary {
+    background-color: var(--dark-red);
+    border-color: var(--dark-red);
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: #900000;
+    border-color: #900000;
+}
+
+.modal-footer .btn-success {
+    background-color: var(--green);
+    border-color: var(--green);
+}
+
+.modal-footer .btn-success:hover {
+    background-color: var(--green-hover);
+    border-color: var(--green-hover);
+}
+
+/* Hover Effect on Buy Button */
+.btn-danger:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}

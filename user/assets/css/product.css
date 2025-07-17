@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #2c2c2c, #6b0f1a);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #3d070f;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #d9534f !important;
+}
+
+.jumbotron {
+    background: #6b0f1a;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    text-shadow: 0 0 5px #3d070f;
+}
+
+.card {
+    background: #1e1e1e;
+    border: 1px solid #6b0f1a;
+    color: #fff;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #6b0f1a;
+}
+
+.card-title {
+    color: #d9534f;
+}
+
+.btn-primary {
+    background: #d9534f;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #a72c2c;
+}
+
+footer {
+    background: #3d070f;
+    color: #fff;
+}
+
+footer a {
+    color: #d9534f !important;
+}
+body {
+    background-color: #1c1c1c;
+    color: #f8f9fa;
+}
+.navbar {
+    background-color: #600000;
+}
+.jumbotron {
+    background: linear-gradient(135deg, #800000, #2c2c2c);
+}
+.jumbotron h1, .jumbotron p {
+    color: #f8f9fa;
+}
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #f8f9fa;
+}
+.rounded-circle {
+    border: 2px solid #600000;
+}
+footer {
+    background-color: #600000;
+}
+a {
+    color: #e63946;
+}
+a:hover {
+    color: #ff6b6b;
+}
